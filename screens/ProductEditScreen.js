@@ -1,11 +1,12 @@
 import React from 'react'
-import { View, Text, Button, StyleSheet } from 'react-native'
+import { View, Button, StyleSheet } from 'react-native'
+import { Surface, Text, Switch } from 'react-native-paper';
 
 export default function ProductEditScreen(props) {
   return (
-    <View style={styles.container}>
-      <Text  style={styles.text}>Product Edit Screen</Text>
-    </View>
+    <Surface style={styles.container}>
+      <Text style={styles.text}>Product Edit Screen</Text>
+    </Surface>
   )
 }
 
